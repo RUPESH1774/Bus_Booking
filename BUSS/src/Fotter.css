@@ -1,0 +1,23 @@
+.background{
+    background: linear-gradient(to right, rgb(59, 52, 52),rgb(66, 12, 12));
+}
+#menu::first-letter{
+    color: #5fa8d3;
+    font-size: 50px;
+    text-shadow: 16px 10px 7px #487571;
+}
+.nav-links{
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 10px;
+    color: aliceblue;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    font-variant: small-caps;
+}
+.nav-links:hover{
+    color: #5fa8d3;
+    
+}

@@ -1,0 +1,83 @@
+.containerr{
+    display: flex;
+    justify-content: space-evenly;
+}
+.containerr form{
+    background: linear-gradient(rgb(66, 58, 58), rgb(143, 198, 219));
+    text-align: center;
+    padding: 50px;
+    color: aliceblue;
+    box-shadow: 10px 11px 11px black;
+    border-radius: 30px 5px;
+}
+.containerr input,textarea{
+    background-color:black ;
+    text-align: center;
+    color: snow;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 20px 5px;
+    box-shadow: 10px 11px 20px black;
+}
+form button{
+    box-shadow: 10px 11px 20px black;
+    color: rgb(255, 241, 241);
+    background-color: red;
+    padding: 7px;
+    border-radius: 20px;
+    text-transform: capitalize;
+}
+form button:hover{
+    transition: all 2s cubic-bezier(0.075, 0.82, 0.165, 1);
+    background-color: rgb(87, 31, 31);
+}
+.containerr img{
+    filter: drop-shadow(10px 11px 11px black);
+    border-radius: 50%;
+}
+
+.headoffice{
+    color: seagreen;
+}
+.headoffice h2{
+    color: darkolivegreen;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    text-shadow: 6px 10px 5px;
+}
+.headoffice p{
+    text-align: center;
+    text-transform: lowercase;
+  
+    padding: 8px;
+    border-radius: 7px 20px;
+}
+.contact{
+    display: flex;
+    text-align: center;
+}
+.map{
+    margin-top: -40vh;
+    text-align: right;
+
+}
+@media (max-width:800px) {
+    .containerr{
+        display: block;
+    }
+    .containerr form{
+        padding: 30px;
+        margin: auto 50px;
+    }
+    .headoffice{
+        margin-top: 40px;
+    }
+    .contact{
+        justify-content: center;
+        margin: 30px auto;
+    }
+    .map{
+        margin-top: 1px;
+        text-align: center;
+    }
+}

@@ -1,0 +1,15 @@
+import React from 'react'
+import Navba from './Navba'
+import Fotter from './Fotter'
+export default function Home() {
+  return (
+    <div>
+      <Navba/>
+      <div id='ani' className='d-flex justify-content-center'>
+      <h2 style={{textShadow:'25px 14px 5px black',boxShadow:'19px 22px 12px 10px black'}} className='display-3 my-5 bg-dark text-warning text-uppercase text-center p-5 border border-secondary border-4 rounded-4 '> Welcome To Mh <br/>Bus Booking <br/> 
+      <img style={{height:'30vh'}} id='imgg' src="\src\Pictures\realistic-bus-vector-illustration-concept_1253202-12473.jpg" alt="" className='img-fluid '/></h2>
+      </div>
+      <Fotter/>
+    </div>
+  )
+}

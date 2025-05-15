@@ -37,7 +37,7 @@ export default function Navba() {
       <Navbar data-bs-theme="light" className='justify-content-center'>
         <Navbar.Brand>
           <img id='imgg' className='img-fluid'
-            src="src/assets/realistic-bus-vector-illustration-concept_1253202-12473.png"
+            src="https://toppng.com/uploads/preview/free-vector-red-travel-bus-clip-art-tour-bus-clip-art-11563268096q6j27gz51v.png"
             alt=""
             style={{ height: '20vh' }}
           />

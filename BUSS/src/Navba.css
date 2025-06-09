@@ -1,6 +1,11 @@
 .nav-link{
     cursor: pointer;
 }
+#imgg{
+    height: 20vh;
+    border-radius: 30px;
+
+}
 .three-body {
     --uib-size: 35px;
     --uib-speed: 0.8s;
@@ -105,3 +110,23 @@
     }
    }
    
+   @media (max-width:400px) {
+    
+    .h4{
+        font-size: 13px;
+    }
+    #imgg{
+        height: 10vh;
+        border-radius: 20px;
+        padding: 10px;
+    }
+    .small{
+        gap: 7px;
+    }
+    .lr{
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        height: 4vh;
+        font-variant: small-caps;
+    }
+   }

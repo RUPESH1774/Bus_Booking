@@ -7,11 +7,15 @@ import Ticket from './Ticket'
 import Contact from './Contact'
 import Fotter from './Fotter'
 import Select from './Select';
+import Login from './Login';
+import Register from './Register';
 export default function App() {
   return (
     <div> 
     <BrowserRouter>
     <Routes>
+     <Route path='/login' element={<Login/>}></Route>
+     <Route path='/register' element={<Register/>}></Route> 
     <Route path='/' element={<Home/>}></Route>
     <Route path='/home' element={<Home/>}></Route>
     <Route path='/about' element={<About/>}></Route>
